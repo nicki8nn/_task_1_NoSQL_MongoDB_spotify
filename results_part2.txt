@@ -1,0 +1,914 @@
+
+=== Task 1: Party tracks ===
+Found: 7311
+Top 10 by popularity:
+[
+  {
+    track_name: 'Calm Down (with Selena Gomez)',
+    popularity: 92,
+    track_genre: 'pop',
+    artists: [
+      'Rema',
+      'Selena Gomez'
+    ],
+    audio_features: {
+      danceability: 0.801,
+      energy: 0.806
+    },
+    duration_sec: 239.3
+  },
+  {
+    track_name: 'LOKERA',
+    popularity: 91,
+    track_genre: 'latin',
+    artists: [
+      'Rauw Alejandro',
+      'Lyanno',
+      'Brray'
+    ],
+    audio_features: {
+      danceability: 0.834,
+      energy: 0.828
+    },
+    duration_sec: 195.3
+  },
+  {
+    track_name: 'LOKERA',
+    popularity: 91,
+    track_genre: 'latino',
+    artists: [
+      'Rauw Alejandro',
+      'Lyanno',
+      'Brray'
+    ],
+    audio_features: {
+      danceability: 0.834,
+      energy: 0.828
+    },
+    duration_sec: 195.3
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'reggaeton',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'reggae',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'latino',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'house',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  },
+  {
+    track_name: 'About Damn Time',
+    popularity: 89,
+    track_genre: 'hip-hop',
+    artists: [
+      'Lizzo'
+    ],
+    audio_features: {
+      danceability: 0.836,
+      energy: 0.743
+    },
+    duration_sec: 191.8
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'dance',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'pop',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  }
+]
+
+=== Task 2: Top 20 artists with all tracks popular ===
+[
+  {
+    track_count: 3,
+    artist: 'Harry Styles',
+    min_popularity: 89,
+    avg_popularity: 92
+  },
+  {
+    track_count: 5,
+    artist: 'Olivia Rodrigo',
+    min_popularity: 86,
+    avg_popularity: 87.4
+  },
+  {
+    track_count: 3,
+    artist: 'IVE',
+    min_popularity: 79,
+    avg_popularity: 84
+  },
+  {
+    track_count: 3,
+    artist: 'Morgan Wallen',
+    min_popularity: 81,
+    avg_popularity: 83.3
+  },
+  {
+    track_count: 5,
+    artist: 'One Direction',
+    min_popularity: 80,
+    avg_popularity: 83
+  },
+  {
+    track_count: 8,
+    artist: 'Lil Nas X',
+    min_popularity: 77,
+    avg_popularity: 82.8
+  },
+  {
+    track_count: 5,
+    artist: 'Måneskin',
+    min_popularity: 76,
+    avg_popularity: 82.6
+  },
+  {
+    track_count: 3,
+    artist: 'TV Girl',
+    min_popularity: 80,
+    avg_popularity: 81.7
+  },
+  {
+    track_count: 6,
+    artist: 'Mora',
+    min_popularity: 69,
+    avg_popularity: 80.3
+  },
+  {
+    track_count: 3,
+    artist: 'Luke Combs',
+    min_popularity: 79,
+    avg_popularity: 80.3
+  },
+  {
+    track_count: 3,
+    artist: 'Maroon 5',
+    min_popularity: 70,
+    avg_popularity: 79.7
+  },
+  {
+    track_count: 6,
+    artist: 'Mitski',
+    min_popularity: 75,
+    avg_popularity: 78.3
+  },
+  {
+    track_count: 3,
+    artist: 'Mark Ronson',
+    min_popularity: 74,
+    avg_popularity: 78.3
+  },
+  {
+    track_count: 4,
+    artist: 'LE SSERAFIM',
+    min_popularity: 75,
+    avg_popularity: 78
+  },
+  {
+    track_count: 3,
+    artist: 'Beach Bunny',
+    min_popularity: 73,
+    avg_popularity: 78
+  },
+  {
+    track_count: 5,
+    artist: 'Shubh',
+    min_popularity: 69,
+    avg_popularity: 77.8
+  },
+  {
+    track_count: 4,
+    artist: 'SZA',
+    min_popularity: 65,
+    avg_popularity: 77.8
+  },
+  {
+    track_count: 3,
+    artist: 'Jhay Cortez',
+    min_popularity: 75,
+    avg_popularity: 77.7
+  },
+  {
+    track_count: 3,
+    artist: 'Mother Mother',
+    min_popularity: 76,
+    avg_popularity: 77.3
+  },
+  {
+    track_count: 4,
+    artist: 'Tiago PZK',
+    min_popularity: 72,
+    avg_popularity: 77
+  }
+]
+
+=== Task 3: Tempo outliers per genre ===
+Genres with outliers: 112
+acoustic | avg 119 | threshold 178.5 | outliers: 34
+afrobeat | avg 119.2 | threshold 171.8 | outliers: 50
+alt-rock | avg 124.6 | threshold 183.1 | outliers: 26
+alternative | avg 122.2 | threshold 183.3 | outliers: 33
+ambient | avg 111.1 | threshold 175.2 | outliers: 34
+anime | avg 123.5 | threshold 189.5 | outliers: 13
+black-metal | avg 128.6 | threshold 188.3 | outliers: 16
+bluegrass | avg 126.6 | threshold 179.7 | outliers: 41
+blues | avg 116.6 | threshold 177.9 | outliers: 35
+brazil | avg 121.9 | threshold 177.8 | outliers: 25
+breakbeat | avg 133 | threshold 183.3 | outliers: 11
+british | avg 118.8 | threshold 177.9 | outliers: 29
+cantopop | avg 124.3 | threshold 181.5 | outliers: 24
+chicago-house | avg 123.9 | threshold 145.7 | outliers: 20
+children | avg 123.3 | threshold 183.3 | outliers: 36
+chill | avg 115.5 | threshold 173.3 | outliers: 32
+classical | avg 107.9 | threshold 170 | outliers: 37
+club | avg 123.3 | threshold 175.5 | outliers: 49
+comedy | avg 101 | threshold 158 | outliers: 54
+country | avg 124 | threshold 187.5 | outliers: 22
+dance | avg 120.1 | threshold 170.7 | outliers: 54
+dancehall | avg 112.9 | threshold 171.4 | outliers: 81
+death-metal | avg 123.8 | threshold 181.5 | outliers: 36
+deep-house | avg 120.9 | threshold 144.7 | outliers: 20
+detroit-techno | avg 126.6 | threshold 147.1 | outliers: 28
+disco | avg 122 | threshold 160.4 | outliers: 31
+disney | avg 112.1 | threshold 176.1 | outliers: 34
+dub | avg 129.5 | threshold 189 | outliers: 5
+dubstep | avg 133.6 | threshold 189.7 | outliers: 6
+edm | avg 122 | threshold 166.6 | outliers: 58
+electro | avg 120.8 | threshold 175.7 | outliers: 62
+electronic | avg 122.9 | threshold 171.7 | outliers: 41
+emo | avg 127 | threshold 189.2 | outliers: 14
+folk | avg 118.5 | threshold 174.8 | outliers: 38
+forro | avg 140.4 | threshold 197.9 | outliers: 1
+french | avg 117.8 | threshold 168 | outliers: 45
+funk | avg 117.8 | threshold 171.7 | outliers: 51
+garage | avg 127 | threshold 184.6 | outliers: 24
+german | avg 117.5 | threshold 176 | outliers: 31
+gospel | avg 125.6 | threshold 177.6 | outliers: 17
+goth | avg 124.3 | threshold 179.5 | outliers: 28
+grindcore | avg 119.2 | threshold 172.9 | outliers: 48
+groove | avg 123.7 | threshold 166 | outliers: 45
+grunge | avg 129.3 | threshold 190.4 | outliers: 23
+guitar | avg 112 | threshold 171 | outliers: 40
+hard-rock | avg 125.4 | threshold 182.4 | outliers: 27
+hardcore | avg 125.4 | threshold 192.1 | outliers: 27
+hardstyle | avg 146.8 | threshold 191.7 | outliers: 6
+heavy-metal | avg 126.6 | threshold 181.6 | outliers: 32
+hip-hop | avg 116.8 | threshold 175.5 | outliers: 40
+honky-tonk | avg 116.6 | threshold 175.4 | outliers: 35
+house | avg 121.1 | threshold 158.9 | outliers: 40
+idm | avg 123.3 | threshold 185.6 | outliers: 25
+indian | avg 116.1 | threshold 172.5 | outliers: 35
+indie | avg 119.1 | threshold 180.4 | outliers: 24
+indie-pop | avg 120.2 | threshold 180.5 | outliers: 27
+industrial | avg 126.8 | threshold 179.5 | outliers: 44
+iranian | avg 114.8 | threshold 184.9 | outliers: 28
+j-dance | avg 114.9 | threshold 175.1 | outliers: 62
+j-idol | avg 136.1 | threshold 192.6 | outliers: 17
+j-pop | avg 124.6 | threshold 188 | outliers: 27
+j-rock | avg 128.5 | threshold 192.2 | outliers: 22
+jazz | avg 112.6 | threshold 175.9 | outliers: 53
+k-pop | avg 119.2 | threshold 174 | outliers: 33
+kids | avg 121.8 | threshold 174.3 | outliers: 36
+latin | avg 119.8 | threshold 185.2 | outliers: 16
+latino | avg 119.4 | threshold 185.7 | outliers: 18
+malay | avg 119.3 | threshold 177.4 | outliers: 28
+mandopop | avg 123.5 | threshold 181.9 | outliers: 21
+metal | avg 127.9 | threshold 187.9 | outliers: 27
+metalcore | avg 130.6 | threshold 192.5 | outliers: 22
+minimal-techno | avg 124.7 | threshold 143.8 | outliers: 20
+mpb | avg 120.2 | threshold 179.6 | outliers: 34
+new-age | avg 108 | threshold 170.2 | outliers: 45
+opera | avg 105.6 | threshold 167.3 | outliers: 65
+pagode | avg 126.9 | threshold 187.5 | outliers: 7
+party | avg 131.3 | threshold 163.8 | outliers: 31
+piano | avg 118.1 | threshold 188.3 | outliers: 38
+pop | avg 120.9 | threshold 183 | outliers: 21
+pop-film | avg 117.3 | threshold 173.9 | outliers: 41
+power-pop | avg 134.7 | threshold 194.2 | outliers: 26
+progressive-house | avg 125.1 | threshold 148.8 | outliers: 27
+psych-rock | avg 121.6 | threshold 177.1 | outliers: 35
+punk | avg 133.6 | threshold 196.3 | outliers: 22
+punk-rock | avg 132.2 | threshold 194.1 | outliers: 22
+r-n-b | avg 124 | threshold 180.9 | outliers: 19
+reggae | avg 119.9 | threshold 186.5 | outliers: 15
+reggaeton | avg 118.9 | threshold 187.4 | outliers: 17
+rock | avg 126.3 | threshold 188.6 | outliers: 36
+rock-n-roll | avg 120.4 | threshold 180.6 | outliers: 42
+rockabilly | avg 123.7 | threshold 190.8 | outliers: 30
+romance | avg 109.7 | threshold 168.4 | outliers: 57
+sad | avg 119.1 | threshold 180.1 | outliers: 17
+salsa | avg 119.9 | threshold 186.8 | outliers: 24
+samba | avg 118.1 | threshold 176.2 | outliers: 17
+sertanejo | avg 127.1 | threshold 188.4 | outliers: 15
+show-tunes | avg 114.4 | threshold 176.2 | outliers: 29
+singer-songwriter | avg 119.7 | threshold 181.6 | outliers: 28
+ska | avg 128.3 | threshold 188.9 | outliers: 25
+sleep | avg 84.6 | threshold 173.9 | outliers: 22
+songwriter | avg 119.7 | threshold 181.6 | outliers: 28
+soul | avg 114.6 | threshold 171.5 | outliers: 57
+spanish | avg 122.8 | threshold 183.2 | outliers: 22
+study | avg 111.8 | threshold 182.9 | outliers: 13
+swedish | avg 121.1 | threshold 175.1 | outliers: 35
+synth-pop | avg 122.9 | threshold 168.1 | outliers: 51
+tango | avg 114.6 | threshold 160.9 | outliers: 49
+techno | avg 128.3 | threshold 159.7 | outliers: 55
+trance | avg 133.3 | threshold 163.3 | outliers: 35
+trip-hop | avg 118.7 | threshold 179.7 | outliers: 38
+turkish | avg 120.4 | threshold 179.6 | outliers: 31
+world-music | avg 121.4 | threshold 182.2 | outliers: 11
+Full result for the first genre:
+{
+  outlier_tracks: [
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a031'),
+      track_name: "Can't Help Falling In Love",
+      popularity: 71,
+      artists: [
+        'Kina Grannis'
+      ],
+      audio_features: {
+        tempo: 181.74
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a04e'),
+      track_name: 'All I Want For Christmas Is A Real Good Tan',
+      popularity: 0,
+      artists: [
+        'Chord Overstreet'
+      ],
+      audio_features: {
+        tempo: 202.019
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a084'),
+      track_name: 'Brave',
+      popularity: 70,
+      artists: [
+        'Sara Bareilles'
+      ],
+      audio_features: {
+        tempo: 185.063
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a0ab'),
+      track_name: 'Believer (Remix)',
+      popularity: 42,
+      artists: [
+        'Ben Woodward'
+      ],
+      audio_features: {
+        tempo: 187.484
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a153'),
+      track_name: '30,000 Feet',
+      popularity: 57,
+      artists: [
+        'Ben Rector'
+      ],
+      audio_features: {
+        tempo: 179.921
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a162'),
+      track_name: 'Shallow - Acoustic',
+      popularity: 52,
+      artists: [
+        'Tyler Ward',
+        'Madysyn'
+      ],
+      audio_features: {
+        tempo: 187.057
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a18f'),
+      track_name: '太陽さん',
+      popularity: 55,
+      artists: [
+        'Ichiko Aoba'
+      ],
+      audio_features: {
+        tempo: 181.988
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a1ae'),
+      track_name: 'Fast Car',
+      popularity: 61,
+      artists: [
+        'Boyce Avenue',
+        'Kina Grannis'
+      ],
+      audio_features: {
+        tempo: 204.961
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a1cd'),
+      track_name: 'Wish List',
+      popularity: 46,
+      artists: [
+        'Canyon City'
+      ],
+      audio_features: {
+        tempo: 201.008
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a1ed'),
+      track_name: 'The Legend of Olog-hai, Pt. 1',
+      popularity: 31,
+      artists: [
+        'The Bridge City Sinners'
+      ],
+      audio_features: {
+        tempo: 182.379
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a1fa'),
+      track_name: 'Anyone',
+      popularity: 53,
+      artists: [
+        'Bailey Jehl'
+      ],
+      audio_features: {
+        tempo: 199.805
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a21d'),
+      track_name: 'Living My Best Life',
+      popularity: 59,
+      artists: [
+        'Ben Rector'
+      ],
+      audio_features: {
+        tempo: 178.828
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a235'),
+      track_name: 'Running Up That Hill (A Deal With God) - Acoustic',
+      popularity: 51,
+      artists: [
+        'Jonah Baker'
+      ],
+      audio_features: {
+        tempo: 203.816
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a253'),
+      track_name: 'Nickel Plated',
+      popularity: 29,
+      artists: [
+        'Get Dead'
+      ],
+      audio_features: {
+        tempo: 179.92
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a258'),
+      track_name: 'Somebody That I Used To Know',
+      popularity: 49,
+      artists: [
+        'Lúc'
+      ],
+      audio_features: {
+        tempo: 183.571
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a25f'),
+      track_name: 'Wanted Man',
+      popularity: 59,
+      artists: [
+        'Mat Kearney'
+      ],
+      audio_features: {
+        tempo: 203.651
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a26f'),
+      track_name: "Don't Know What I Want",
+      popularity: 24,
+      artists: [
+        'Gabrielle Aplin'
+      ],
+      audio_features: {
+        tempo: 180.075
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a285'),
+      track_name: '8 Track',
+      popularity: 28,
+      artists: [
+        'Get Dead'
+      ],
+      audio_features: {
+        tempo: 197.008
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a2bd'),
+      track_name: 'Longest Night',
+      popularity: 43,
+      artists: [
+        'Howie Day'
+      ],
+      audio_features: {
+        tempo: 202.098
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a304'),
+      track_name: 'Pirates of the Caribbean Theme',
+      popularity: 30,
+      artists: [
+        'Eddie van der Meer'
+      ],
+      audio_features: {
+        tempo: 188.325
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a311'),
+      track_name: 'V: Fair Trade Death March',
+      popularity: 27,
+      artists: [
+        'RENT STRIKE'
+      ],
+      audio_features: {
+        tempo: 181.81
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a332'),
+      track_name: 'Suitcase',
+      popularity: 46,
+      artists: [
+        'JJ Heller'
+      ],
+      audio_features: {
+        tempo: 179.605
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a35d'),
+      track_name: 'Supermarket Flowers',
+      popularity: 45,
+      artists: [
+        'Postcards & Polaroids',
+        'Sad Boy'
+      ],
+      audio_features: {
+        tempo: 180.191
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a366'),
+      track_name: 'Paperweight by Joshua Radin and Schuyler Fisk',
+      popularity: 49,
+      artists: [
+        'Joshua Radin'
+      ],
+      audio_features: {
+        tempo: 179.844
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a385'),
+      track_name: 'Teenage Dream',
+      popularity: 48,
+      artists: [
+        'Sara Farell'
+      ],
+      audio_features: {
+        tempo: 179.911
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a38e'),
+      track_name: 'As Long as You Love Me',
+      popularity: 54,
+      artists: [
+        'Erato',
+        'Charlotte Almgren'
+      ],
+      audio_features: {
+        tempo: 202.996
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3ac'),
+      track_name: 'Clawfoot',
+      popularity: 26,
+      artists: [
+        'Pigeon Pit'
+      ],
+      audio_features: {
+        tempo: 185.147
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3b2'),
+      track_name: 'Sombody else - Acoustic',
+      popularity: 42,
+      artists: [
+        'Sara Farell'
+      ],
+      audio_features: {
+        tempo: 201.64
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3cc'),
+      track_name: 'Untainted Innocence',
+      popularity: 26,
+      artists: [
+        'Steve Pulvers'
+      ],
+      audio_features: {
+        tempo: 179.941
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3dd'),
+      track_name: 'Rivers',
+      popularity: 26,
+      artists: [
+        'Frank Turner'
+      ],
+      audio_features: {
+        tempo: 183.874
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3e0'),
+      track_name: 'Dance, Motherfucker, Dance!',
+      popularity: 27,
+      artists: [
+        'Violent Femmes'
+      ],
+      audio_features: {
+        tempo: 193.395
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a3fb'),
+      track_name: 'I Want It That Way - Acoustic Covers of Popular Songs',
+      popularity: 51,
+      artists: [
+        'Son&Dad',
+        'Filip Nordin'
+      ],
+      audio_features: {
+        tempo: 203.571
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a400'),
+      track_name: 'Cried Like A Baby',
+      popularity: 25,
+      artists: [
+        'Rory Block'
+      ],
+      audio_features: {
+        tempo: 179.76
+      }
+    },
+    {
+      _id: ObjectId('6aec9ed900ca73d2f712a408'),
+      track_name: 'Make It Easy On Yourself',
+      popularity: 25,
+      artists: [
+        'Gail Blanco'
+      ],
+      audio_features: {
+        tempo: 180.048
+      }
+    }
+  ],
+  avg_tempo: 119,
+  genre: 'acoustic',
+  outlier_threshold: 178.5
+}
+
+=== Task 4: Background tracks for work ===
+Found: 9324
+Top 10 by popularity:
+[
+  {
+    track_name: 'everything i wanted',
+    explicit: false,
+    track_genre: 'electro',
+    artists: [
+      'Billie Eilish'
+    ],
+    audio_features: {
+      loudness: -14.454,
+      speechiness: 0.0994,
+      instrumentalness: 0.657
+    }
+  },
+  {
+    track_name: 'Clean White Noise - Loopable with no fade',
+    explicit: false,
+    track_genre: 'sleep',
+    artists: [
+      'White Noise Baby Sleep',
+      'White Noise for Babies'
+    ],
+    audio_features: {
+      loudness: -28.46,
+      speechiness: 0,
+      instrumentalness: 1
+    }
+  },
+  {
+    track_name: 'Experience',
+    explicit: false,
+    track_genre: 'ambient',
+    artists: [
+      'Ludovico Einaudi',
+      'Daniel Hope',
+      'I Virtuosi Italiani'
+    ],
+    audio_features: {
+      loudness: -10.634,
+      speechiness: 0.0376,
+      instrumentalness: 0.961
+    }
+  },
+  {
+    track_name: 'Experience',
+    explicit: false,
+    track_genre: 'classical',
+    artists: [
+      'Ludovico Einaudi',
+      'Daniel Hope',
+      'I Virtuosi Italiani'
+    ],
+    audio_features: {
+      loudness: -10.634,
+      speechiness: 0.0376,
+      instrumentalness: 0.961
+    }
+  },
+  {
+    track_name: 'Show Me How',
+    explicit: false,
+    track_genre: 'indie',
+    artists: [
+      'Men I Trust'
+    ],
+    audio_features: {
+      loudness: -11.997,
+      speechiness: 0.0415,
+      instrumentalness: 0.534
+    }
+  },
+  {
+    track_name: 'Show Me How',
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'Men I Trust'
+    ],
+    audio_features: {
+      loudness: -11.997,
+      speechiness: 0.0415,
+      instrumentalness: 0.534
+    }
+  },
+  {
+    track_name: 'K.',
+    explicit: false,
+    track_genre: 'ambient',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'K.',
+    explicit: false,
+    track_genre: 'indie',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'K.',
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'i was all over her',
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'salvia palth'
+    ],
+    audio_features: {
+      loudness: -12.835,
+      speechiness: 0.0292,
+      instrumentalness: 0.853
+    }
+  }
+]

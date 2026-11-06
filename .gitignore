@@ -1,0 +1,5 @@
+.env
+venv/
+dataset.csv
+.DS_Store
+echo ".vscode/" >> .gitignore

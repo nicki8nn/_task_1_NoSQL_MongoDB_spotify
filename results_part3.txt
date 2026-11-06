@@ -1,0 +1,55 @@
+
+========== Task 1 ==========
+
+--- Task 1 BEFORE index ---
+Plan stages:         SORT <- COLLSCAN
+nReturned:           354
+totalKeysExamined:   0
+totalDocsExamined:   113999
+executionTimeMillis: 126
+
+--- Task 1 AFTER index ---
+Plan stages:         FETCH <- IXSCAN (genre_popularity_danceability)
+nReturned:           354
+totalKeysExamined:   412
+totalDocsExamined:   354
+executionTimeMillis: 2
+
+========== Task 2 ==========
+
+--- Task 2 BEFORE index ---
+Plan stages:         COLLSCAN
+nReturned:           16141
+totalKeysExamined:   0
+totalDocsExamined:   113999
+executionTimeMillis: 125
+
+--- Task 2 AFTER index ---
+Plan stages:         FETCH <- IXSCAN (work_music)
+nReturned:           16141
+totalKeysExamined:   16602
+totalDocsExamined:   16141
+executionTimeMillis: 37
+
+========== Task 3 ==========
+
+--- Task 3 query as given (no projection) ---
+Plan stages:         FETCH <- IXSCAN (genre_popularity_danceability)
+nReturned:           317
+totalKeysExamined:   317
+totalDocsExamined:   317
+executionTimeMillis: 0
+
+--- Task 3 with projection { _id: 0, track_genre: 1, popularity: 1 } ---
+Plan stages:         PROJECTION_COVERED <- IXSCAN (genre_popularity_danceability)
+nReturned:           317
+totalKeysExamined:   317
+totalDocsExamined:   0
+executionTimeMillis: 0
+
+Indexes on tracks:
+[
+  '_id_',
+  'genre_popularity_danceability',
+  'work_music'
+]
